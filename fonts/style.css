@@ -1,0 +1,11 @@
+@font-face {
+
+      font-family: "edwardian";
+      src: url("ITCEDSCR.TTF") format("truetype");
+
+      }
+
+
+.eddie-font{
+    font-family: "edwardian";  
+       } 

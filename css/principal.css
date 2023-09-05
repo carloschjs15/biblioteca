@@ -1,0 +1,422 @@
+body {
+    background-image: url(../imgs/background1.jpg);
+}
+#main-menu {
+    width: 22%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px #696969;
+    background-image: url(../imgs/background2.jpg);
+}
+#detail-main-menu {
+    width: 93%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #2E8B57;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#detail-main-menu:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+#content-main-menu {
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+    float: left;
+    margin-top: 10px;
+}
+#button-main-menu {
+    background-color: #000000;
+    opacity: 0.7;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+#button-main-menu:hover {
+     -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+}
+#button-main-menu-now {
+    background-color: #000000;
+    opacity: 0.7;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+     -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+}
+#white-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
+#black-line {
+    width: 100%;
+    height: 1px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A9A9A9;
+}
+#title {
+    width: 75%;
+    margin-left: 25%;
+    float: left;
+    font-family: edwardian;
+    font-size: 85px;
+}
+#logo-title {
+    width: 90px;
+    height: 90px;
+    float: left;
+    background-image: url(../imgs/logo.png);
+    background-size: cover;
+}
+#content {
+    width: 73%;
+    height: auto;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 1%;
+    float: left;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #A9A9A9;
+    border-radius: 3px;
+}
+#special-content {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    float: left;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #A9A9A9;
+    border-radius: 3px;
+}
+#foot {
+    width: 95%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 3px;
+    font-family: "Segoe UI Light", segoe-ui;
+    font-size: 12px;
+    color: #000000;
+}
+#button-sub-menu-active {
+    width: 165px;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+    background-color: #708090;
+    font-family: "Segoe UI Light", segoe-ui;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: dotted;
+}
+#button-sub-menu-active:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+#button-sub-menu {
+    width: 165px;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+    background-color: #708090;
+    font-family: "Segoe UI Light", segoe-ui;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+#button-sub-menu:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+#title-label {
+    width: 95%;
+    font-family: "Segoe UI Semibold", segoe-ui;
+    font-size: 25px;
+    color: #000000;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4%; 
+}
+#label {
+    font-family: "Segoe UI Light", segoe-ui;
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+#text-field {
+    width: 90%;
+    font-family: "Segoe UI Light", segoe-ui;
+    font-size: 20px;
+    color: #aeaeae;
+    border-radius: 3px;
+    border: 1px solid #bfc4c6;
+    outline: none;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+#combo-box {
+    width: 92%;
+    font-family: "Segoe UI Light", segoe-ui;
+    font-size: 20px;
+    color: #000000;
+    color: #aeaeae;
+    border-radius: 3px;
+    border: 1px solid #bfc4c6;
+    outline: none;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+#button-submit {
+    width: 150px;
+    padding: 15px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 3.5%;
+    background-color: #4682B4;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+#button-submit:hover {
+    background-color: #4169E1;
+}
+#button-update {
+    width: 150px;
+    padding: 15px;
+    float: right;
+    margin-top: 10px;
+    background-color: #4682B4;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+#button-update:hover {
+    background-color: #4169E1;
+}
+#button-edit {
+    width: 100%;
+    padding: 10px;
+    background-color: #32CD32;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+#button-edit:hover {
+    background-color: #9ACD32;
+}
+#button-delete {
+    width: 100%;
+    padding: 10px;
+    background-color: #B22222;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+#button-delete:hover {
+    background-color: #DC143C;
+}
+#button-finalize {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E90FF;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+#button-finalize:hover {
+    background-color: #6495ED;
+}
+#table {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    border-color: #A9A9A9;
+}
+#table-header th{
+    background-color: #323232;
+    font-family: segoe-ui;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+#table-content td{
+    background-color: white;
+    font-family: segoe-ui;
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 5px;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+a {
+    text-decoration: none;
+}
+.window {
+    display: none;
+    width: 700px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    z-index: 9900;
+    padding: 10px;
+    border-radius: 3px;
+}
+.mask {
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 9000;
+    background-color: #000000;
+}
+#title-window {
+    font-family: "Segoe UI Semibold", segoe-ui;
+    font-size: 25px;
+    color: #000000;
+    float: left;
+    margin-top: 10px;
+}
+#close {
+    width: 25px;
+    padding: 10px;
+    float: right;
+    background-color: #708090;
+    font-family: "Segoe UI Historic", segoe-ui;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 3px;
+}
+.close {
+    display: block;
+    text-align:right;
+}
